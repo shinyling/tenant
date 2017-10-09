@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    database: mysql
+  datasource:
+    url: jdbc:mysql://10.1.7.220:8066/mycat
+    username: zabbix
+    password: shiny
+    driver-class-name: com.mysql.jdbc.Driver
+logging:
+  config: classpath:log4j2.xml
